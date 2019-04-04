@@ -68,7 +68,7 @@ const Footer = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: TechStar Powerd By: <a href="http://www.websoftic.com"> websoftic.com </a>
+           {new Date().getFullYear()} Copyright: TechStar Powerd By: <a href="http://www.websoftic.com"> websoftic.com </a>
         </MDBContainer>
       </div>
     </MDBFooter>
