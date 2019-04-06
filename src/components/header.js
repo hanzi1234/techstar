@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import NavBar from './navBar';
-import logo from '../image/logos/TechstarLogo.png'
+// import NavBar from './navBar';
+// import logo from '../image/logos/TechstarLogo.png'
+import SideNavPage from '../components/testheader'
 
 class Header extends Component {
   render() {
@@ -8,13 +9,13 @@ class Header extends Component {
      
          <div style={{backgroundColor: "#166678"}}>
      
-       <div  >
-        <center> <img src={logo} width="200px"  alt="TechStarLogo"/></center>
+     
+        {/* <center> <img src={logo} width="200px"  alt="TechStarLogo"/></center>
         </div>
         <hr/>
-        <NavBar/>
-        <hr/>
-        <br/>
+        <NavBar/> */}
+        <SideNavPage/>
+        
       </div>
      
      

@@ -2,6 +2,7 @@ import React from "react";
 import { MDBCarousel,  MDBCarouselInner, MDBCarouselItem,  MDBContainer } from
 "mdbreact";
 
+const techStarImage = require('../image/SLIDERS/techStarSlider.jpg');
 const cameraImage = require('../image/SLIDERS/camaras.jpg');
 const domesticoImage = require('../image/SLIDERS/domestico.jpg');
 const hddImage = require('../image/SLIDERS/hdd.jpg');
@@ -16,39 +17,47 @@ const Carousel = () => {
     <MDBContainer>
       <MDBCarousel activeItem={1} length={7} showControls={true} showIndicators={true} className="z-depth-1">
         <MDBCarouselInner>
-          
-          <MDBCarouselItem itemId="1">
+        <MDBCarouselItem itemId="1">
+              <img src={techStarImage} alt="First slide" />
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="2">
               <img src={cameraImage} alt="First slide" />
           </MDBCarouselItem>
-         
-          <MDBCarouselItem itemId="2">
+          <MDBCarouselItem itemId="3">
+              <img src={techStarImage} alt="First slide" />
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="4">
               <img className="d-block w-100" src={tvImage} alt="Second slide" />
           </MDBCarouselItem>
-        
-          <MDBCarouselItem itemId="3">
+          <MDBCarouselItem itemId="5">
+              <img src={techStarImage} alt="First slide" />
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="6">
               <img className="d-block w-100" src={hddImage} alt="Third slide" />
           </MDBCarouselItem>
 
-          <MDBCarouselItem itemId="4">
+          <MDBCarouselItem itemId="7">
               <img className="d-block w-100" src={laptopImage} alt="Mattonit's item" />
           </MDBCarouselItem>
 
-          <MDBCarouselItem itemId="5">
+          <MDBCarouselItem itemId="8">
               <img className="d-block w-100" src={phoneImage} alt="Mattonit's item" />
           </MDBCarouselItem>
 
-          <MDBCarouselItem itemId="6">
+          <MDBCarouselItem itemId="9">
               <img className="d-block w-100" src={playImage} alt="Mattonit's item" />
           </MDBCarouselItem>
 
-          <MDBCarouselItem itemId="7">
+          <MDBCarouselItem itemId="10">
               <img className="d-block w-100" src={printerImage} alt="Mattonit's item" />
           </MDBCarouselItem>
-
-          <MDBCarouselItem itemId="8">
+          <MDBCarouselItem itemId="11">
+              <img src={techStarImage} alt="First slide" />
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="12">
               <img className="d-block w-100" src={tvImage} alt="Mattonit's item" />
           </MDBCarouselItem>
-          <MDBCarouselItem itemId="9">
+          <MDBCarouselItem itemId="13">
               <img className="d-block w-100" src={domesticoImage} alt="Mattonit's item" />
           </MDBCarouselItem>
           
