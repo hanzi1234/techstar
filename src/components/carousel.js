@@ -15,6 +15,8 @@ const tvImage = require('../image/SLIDERS/tv.jpg');
 const Carousel = () => {
   return (
     <MDBContainer>
+       
+
       <MDBCarousel activeItem={1} length={7} showControls={true} showIndicators={true} className="z-depth-1">
         <MDBCarouselInner>
         <MDBCarouselItem itemId="1">

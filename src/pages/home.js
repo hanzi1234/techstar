@@ -8,7 +8,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <br/>
+      
         <Carousel/>
       <BestSellingProducts/>
       <PartnersAndAlliences/>

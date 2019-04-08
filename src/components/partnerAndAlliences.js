@@ -12,7 +12,7 @@ class PartnersAndAlliences extends React.Component {
       <MDBContainer className="mt-5" >
         <hr/>
       <h2 className="h1-responsive font-weight-bold text-center my-5">
-      Partners And Alliences
+      Partners And Alliances
       
       </h2>    
         <MDBRow center>

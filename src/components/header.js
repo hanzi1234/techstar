@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 // import NavBar from './navBar';
-// import logo from '../image/logos/TechstarLogo.png'
-import SideNavPage from '../components/testheader'
-
+import logo from '../image/logos/TechstarLogo.png'
+import Navbar from './testheader';
 class Header extends Component {
   render() {
     return (
@@ -10,11 +9,11 @@ class Header extends Component {
          <div style={{backgroundColor: "#166678"}}>
      
      
-        {/* <center> <img src={logo} width="200px"  alt="TechStarLogo"/></center>
-        </div>
+         <center> <img src={logo} width="200px"  alt="TechStarLogo"/></center>
+      
         <hr/>
-        <NavBar/> */}
-        <SideNavPage/>
+        {/* <NavBar/> */}
+        <Navbar/>
         
       </div>
      

@@ -26,7 +26,8 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 const Footer = () => {
   return (
-    <MDBFooter color="black" className="font-small pt-4 mt-4">
+    <MDBFooter color="special-color-dark
+      #263238" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
@@ -39,29 +40,35 @@ const Footer = () => {
           <MDBCol md="6">
             <h5 className="title"><b>Explore Us</b></h5>
             <ul>
-              <li >
+             
+    <ul>
                 <Link to='./'>About Us</Link> 
-              </li>
-              <li >
+              
+    
+</ul>
+<ul>          
                 <Link to='./company'>Organization</Link>
 
-              </li>
-              <li >
+    
+</ul>
+<ul>         
         <Link to='./cooperation'>Cooperate Sector</Link>
 
-              </li>
-              <li >
+    
+</ul>
+<ul>         
         <Link to='./productPortfolio'>Product Categories</Link>
               
-              </li>
-              <li>
+     
+</ul>
+<ul>       
               <Link to='./contacts'>Contact Us</Link>
 
-</li>
-<li>
+</ul>
+<ul>
 <Link to='./subscribe'>Subscribe Us</Link>
 
-</li>
+</ul>
             </ul>
           </MDBCol>
         </MDBRow>

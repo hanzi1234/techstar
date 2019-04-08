@@ -13,7 +13,7 @@ class PlateformMembers extends React.Component {
       <MDBContainer className="mt-5">
          <hr/>
       <h2 className="h1-responsive font-weight-bold text-center my-5">
-      Plateform Members
+      Platform Members
       
       </h2>    
       
