@@ -1,20 +1,6 @@
-// import React, { Component } from 'react';
-
-// class Contacts extends Component {
-//   render() {
-//     return (
-//       <div>
-// Contacts page
-//       </div>
-//     );
-//   }
-// }
-
-// export default Contacts;
-
 
 import React from "react";
-import {  MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+import {  MDBContainer, MDBRow, MDBCol, MDBIcon} from "mdbreact";
 
 const Contacts = () => {
   return (
@@ -22,68 +8,34 @@ const Contacts = () => {
       <h2 className="h1-responsive font-weight-bold text-center my-5">
         Contact us
       </h2>
-      <p className="text-center w-responsive mx-auto pb-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-        error amet numquam iure provident voluptate esse quasi, veritatis
-        totam voluptas nostrum quisquam eum porro a pariatur veniam.
-      </p>
+     
       <MDBRow>
-        <MDBCol md="9" className="md-0 mb-5">
-          <form>
-            <MDBRow>
-              <MDBCol md="6">
-                <div className="md-form mb-0">
-                  <MDBInput type="text" id="contact-name" label="Your name" />
-                </div>
-              </MDBCol>
-              <MDBCol md="6">
-                <div className="md-form mb-0">
-                  <MDBInput
-                    type="text"
-                    id="contact-email"
-                    label="Your email"
-                  />
-                </div>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow>
-              <MDBCol md="12">
-                <div className="md-form mb-0">
-                  <MDBInput type="text" id="contact-subject" label="Subject" />
-                </div>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow>
-              <MDBCol md="12">
-                <div className="md-form mb-0">
-                  <MDBInput
-                    type="textarea"
-                    id="contact-message"
-                    label="Your message"
-                  />
-                </div>
-              </MDBCol>
-            </MDBRow>
-          </form>
-          <div className="text-center text-md-left">
-            <MDBBtn color="primary" size="md">
-              Send
-            </MDBBtn>
-          </div>
-        </MDBCol>
-        <MDBCol md="3" className="text-center">
+     
+        <MDBCol md="6" className="text-center">
           <ul className="list-unstyled mb-0">
             <li>
               <MDBIcon icon="map-marker-alt" size="2x" className="blue-text" />
-              <p>San Francisco, CA 94126, USA</p>
+              <h3>Address:</h3> <h4> Plovdiv 4000 Plovdiv Municipality , South District 26 Skopie str.</h4>
             </li>
             <li>
               <MDBIcon icon="phone" size="2x" className="blue-text mt-4" />
-              <p>+ 01 234 567 89</p>
+             <h3> VAT NO:</h3><h4> BG 205540461</h4>
             </li>
+            </ul>
+            </MDBCol>
+            <MDBCol md="6" className="text-center">
+            <ul className="list-unstyled mb-0">
+
             <li>
               <MDBIcon icon="envelope" size="2x" className="blue-text mt-4" />
-              <p>contact@example.com</p>
+              <h3>Sales Team: </h3> <h4>Office@techstartrade.net</h4>
+            </li>  <li>
+              <MDBIcon icon="envelope" size="2x" className="blue-text mt-4" />
+              <h3> Director:</h3> <h4>Martaewa779@gmail.com</h4>
+            </li>  <li>
+
+              <MDBIcon icon="envelope" size="2x" className="blue-text mt-4" />
+              <h3>Accounts:</h3><h4> Accounting@bulgariancompanies.com</h4>
             </li>
           </ul>
         </MDBCol>

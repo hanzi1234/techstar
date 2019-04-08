@@ -4,7 +4,6 @@ import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem,  MDBNavbarToggler, MDBCollapse
 } from "mdbreact";
 import logo from '../image/logos/TechstarLogonew2.png';
-
 class NavbarPage extends Component {
 state = {
   isOpen: false
@@ -25,7 +24,7 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem active>
-             <Link to="/"><span style={Styles.item}> Home</span> </Link>
+             <Link to="/"><span  style={Styles.item}> Home</span> </Link>
             </MDBNavItem>
           
               
@@ -65,6 +64,7 @@ const Styles ={
 
 item:{   
   color:  "white",
-padding: 15
-  }
+padding: 10,
+fontSize:"13px"
+}
 }

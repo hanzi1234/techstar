@@ -14,7 +14,7 @@ class PlateformMembers extends React.Component {
          <hr/>
       <h2 className="h1-responsive font-weight-bold text-center my-5">
       Platform Members
-      
+
       </h2>    
       
         <MDBRow center>
